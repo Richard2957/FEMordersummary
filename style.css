@@ -22,9 +22,8 @@ html{
 }
 
 body{
-    background: url("images/pattern-background-mobile.svg") no-repeat ;
+    background: var(--Paleblue)  url("images/pattern-background-mobile.svg")  no-repeat;
     background-size:100% auto;
-    background-color:var(--Paleblue) ;
     display:flex;
     flex-direction: column;
 justify-content: center;
@@ -42,6 +41,7 @@ height:100vh;
     background-size:100% auto;
     display:flex;
     flex-direction: column;
+    box-shadow: 0.4rem 0.4rem   var(--Verypaleblue);
 
 }
 
